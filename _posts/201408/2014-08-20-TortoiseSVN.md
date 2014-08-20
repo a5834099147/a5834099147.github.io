@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hello Blog
-description: 测试我的 Blog
+title: TortoiseSVN 学习
+description: 关于对 TortoiseSVN SVN客户端软件的使用
 categories:
 - Tool
 tags:
@@ -12,7 +12,7 @@ tags:
 
 ### 使用:
 
-1. 打开任意非内含 SVN 目录右键菜单
+1. __打开任意非内含 SVN 目录右键菜单__
 
 	![svn_1][svn_1]
 
@@ -20,7 +20,7 @@ tags:
 	+ SVN 检出, 在该目录位置检出代码库
 	+ TortoiseSVN 功能菜单
 
-2. 检出框
+2. __检出框__
 
     ![svn_2][svn_2]
 
@@ -34,7 +34,7 @@ tags:
 	+ 版本
 	可选择最新版本或特定版本, 通过日志可找到特定版本号.
 
-3. 打开任意内含 SVN 目录右键菜单
+3. __打开任意内含 SVN 目录右键菜单__
 
     ![svn_3][svn_3]
 
@@ -42,7 +42,7 @@ tags:
 	+ SVN更新: 从代码库服务器上下载文件更新版本更新本地文件
 	+ SVN提交: 将本地对本版本代码库所做修改提交到版本库上.
 
-4. 提交框
+4. __提交框__
 
 	![svn_4][svn_4]
 
@@ -53,7 +53,7 @@ tags:
 	+ 双击路径文件可对比当前版本所做出的修改
 	+ 状态表示该操作对版本库做出的具体状态.
 
-5. TortoiseSVN 详细设置
+5. __TortoiseSVN 详细设置__
 
 	![svn_5][svn_5]
 
@@ -87,7 +87,7 @@ tags:
 	+ 增加
 	增加本目录中不受版本控制的文件
 
-6. 日志查看
+6. __日志查看__
 
 	![svn_6][svn_6]
 
@@ -101,10 +101,10 @@ tags:
 	+ 查看各条日志的详细信息
 	+ 查看各条日志的具体对某个文件的操作
 
-[svn_1]:image/20140820/svn_1.png
-[svn_2]:image/20140820/svn_2.png
-[svn_3]:image/20140820/svn_3.png
-[svn_4]:image/20140820/svn_4.png
-[svn_5]:image/20140820/svn_5.png
-[svn_6]:image/20140820/svn_6.png
+[svn_1]:/image/20140820/svn_1.png
+[svn_2]:/image/20140820/svn_2.png
+[svn_3]:/image/20140820/svn_3.png
+[svn_4]:/image/20140820/svn_4.png
+[svn_5]:/image/20140820/svn_5.png
+[svn_6]:/image/20140820/svn_6.png
 
