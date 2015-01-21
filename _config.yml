@@ -2,7 +2,6 @@ markdown: rdiscount
 highlighter: pygments
 permalink: /:year/:month/:title/
 url: http://lixd.coding.io/
-author: lxd
-pygments: true
+author: li_xd
 paginate: 18
 exclude: ['vendor', 'README.md', 'Gemfile', 'Gemfile.lock', 'config.ru', 'unicorn.rb', 'Procfile']
