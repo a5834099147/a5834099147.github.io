@@ -1,5 +1,5 @@
-# config.ru
 require "bundler/setup"
+require 'rack/contrib/try_static'
 Bundler.require(:default)
 
 WEBHOOK_TOKEN = ENV['WEBHOOK_TOKEN']
@@ -34,5 +34,12 @@ app = Proc.new do |env|
 end
 
 jekyll = Rack::Jekyll.new(auto: true)
+
+use Rack::Deflater
+
+# use Rack::TryStatic,
+#   :root => "_site",
+#   :urls => %w[/],
+#   :try  => ['index.html', '/index.html']
 
 run Rack::URLMap.new('/' => jekyll, '/_' => app)
